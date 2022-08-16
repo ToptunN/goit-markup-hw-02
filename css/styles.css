@@ -1,0 +1,203 @@
+
+:root{
+    --main-text-color: #757575;
+    --title-text-color: #212121;
+    --second-text-color:#ffffff;
+    --accent-color: #2196F3;
+    --bcg-color: #FFFFFF;
+    --bcgsecond-color: #F5F4FA;
+    --bcgthird: #2F303A;
+}
+body{
+    font-family: 'Roboto',sans-serif;
+    }
+.logo{
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+}
+ul{
+    list-style: none;
+}
+.navigation{
+    font-weight: 500; 
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: var(--headlines-title);
+}
+
+.menu .studio:hover,
+.menu .studio:focus{
+    color: var(--accent-color);
+}
+.menu .portfolio:hover, 
+.menu .portfolio:focus{
+    color: var(--accent-color);
+}
+.menu .contacts:hover,
+.menu .contacts:focus{
+    color: var(--accent-color);
+}
+.email-phone .email {
+    color: var(--main-text-color)
+}
+
+.email-phone .phone {
+    color: var(--main-text-color)
+}
+.email:hover,
+.email:focus {
+    color: var(--accent-color);
+}
+.phone:hover,
+.phone:focus {
+    color: var(--accent-color);
+}
+.hero{
+    background-color:var(--bcgthird)
+}
+.hero-text{
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color:var(--second-text-color)
+}
+.order{
+    background-color: var(--accent-color);
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.87; 
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+    color: #FFFFFF;
+}
+.title{
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--headlines-title);
+}
+.title-text{
+    color: var(--main-text-color);
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+
+}
+.skills{
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--title-text-color);
+}
+.team{
+    background-color: var(--bcgsecond-color);
+}
+.team-label{
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color:var(--title-text-color)
+
+}
+.team.card{
+    background-color: var(--bcg-color);
+}
+.team-member{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.19;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--headlines-title);
+}
+.team-profession{
+    font-size: 16px;
+    line-height: 1.19; 
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--main-text-color);
+}
+footer{
+    background-color: var(--bcgthird);
+}
+footer .logo {
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+}
+.post-address{
+    font-style: normal;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: var(--second-text-color);
+}
+footer .email{
+font-style: normal;
+font-size: 14px;
+line-height: 1.71;
+letter-spacing: 0.03em;
+color: rgba(255, 255, 255, 0.6);
+}   
+footer .phone {
+    font-style: normal;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
+}
+.portfolio-page .filters{
+    background-color: var(--bcgsecond-color);
+    font-family: 'Roboto', sans-serif;
+}
+.filter-all{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--title-text-color)
+}
+.filter-all:hover,
+.filter-all:focus{
+   color: var(--second-text-color); 
+   background-color: var(--accent-color);
+}
+.filter-sites:hover,
+.filter-sites:focus {
+    color: var(--second-text-color);
+    background-color: var(--accent-color);
+}
+.filter-apps:hover,
+.filter-apps:focus {
+    color: var(--second-text-color);
+    background-color: var(--accent-color);
+}
+.filter-design:hover,
+.filter-design:focus {
+    color: var(--second-text-color);
+    background-color: var(--accent-color);
+}
+.filter-marketing:hover,
+.filter-marketing:focus {
+    color: var(--second-text-color);
+    background-color: var(--accent-color);
+}
+
