@@ -7,9 +7,11 @@
     --bcg-color: #FFFFFF;
     --bcgsecond-color: #F5F4FA;
     --bcgthird: #2F303A;
+    
 }
 body{
     font-family: 'Roboto',sans-serif;
+    text-decoration: none;
     }
 .logo{
     font-family: 'Raleway';
@@ -17,36 +19,40 @@ body{
     font-size: 26px;
     line-height: 1.19;
     letter-spacing: 0.03em;
+    text-decoration: none;
+}
+.logo:hover,
+.logo:focus{
+    color:var(--accent-color)
 }
 ul{
     list-style: none;
 }
-.navigation{
-    font-weight: 500; 
+a {
+    text-decoration: none;
+}
+img{
+    display: block;
+}
+
+.menu-link{
+    font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
-    color: var(--headlines-title);
+    color: var(--title-text-color);
 }
-
-.menu .studio:hover,
-.menu .studio:focus{
-    color: var(--accent-color);
-}
-.menu .portfolio:hover, 
-.menu .portfolio:focus{
-    color: var(--accent-color);
-}
-.menu .contacts:hover,
-.menu .contacts:focus{
+.menu-link:hover,
+.menu-link:focus{
     color: var(--accent-color);
 }
 .email-phone .email {
-    color: var(--main-text-color)
+    color: var(--main-text-color);
+    font-weight: 500;
 }
-
 .email-phone .phone {
-    color: var(--main-text-color)
+    color: var(--main-text-color);
+    font-weight: 500;
 }
 .email:hover,
 .email:focus {
@@ -68,8 +74,8 @@ ul{
     text-transform: uppercase;
     color:var(--second-text-color)
 }
-.order{
-    background-color: var(--accent-color);
+.modal-button{
+    font-family: inherit;
     font-weight: 700;
     font-size: 16px;
     line-height: 1.87; 
@@ -77,6 +83,13 @@ ul{
     text-align: center;
     letter-spacing: 0.06em;
     color: #FFFFFF;
+    background-color: var(--accent-color);
+    cursor: pointer;
+
+}
+.modal-button:hover {
+    background-color: var(--accent-color)
+    color: var(--second-text-color)
 }
 .title{
     font-weight: 700;
@@ -91,7 +104,6 @@ ul{
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
-
 }
 .skills{
     font-weight: 700;
@@ -148,6 +160,10 @@ footer .logo {
     letter-spacing: 0.03em;
     color: var(--second-text-color);
 }
+footer .post-address:hover,
+footer .post-address:focus {
+    color:#2196F3
+}
 footer .email{
 font-style: normal;
 font-size: 14px;
@@ -166,38 +182,33 @@ footer .phone {
     background-color: var(--bcgsecond-color);
     font-family: 'Roboto', sans-serif;
 }
-.filter-all{
-    font-family: 'Roboto', sans-serif;
+.filter-button{
+    font-family: inherit;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.62;
     text-align: center;
     letter-spacing: 0.03em;
-    color: var(--title-text-color)
+    color: var(--title-text-color);
+    cursor: pointer;
 }
-.filter-all:hover,
-.filter-all:focus{
+.filter-button:hover,
+.filter-button:focus{
    color: var(--second-text-color); 
    background-color: var(--accent-color);
 }
-.filter-sites:hover,
-.filter-sites:focus {
-    color: var(--second-text-color);
-    background-color: var(--accent-color);
+.work-description{
+    font-size: 16px;
+    line-height: 1.88;
+    letter-spacing: 0.03em;
+    color: var(--main-text-color);
 }
-.filter-apps:hover,
-.filter-apps:focus {
-    color: var(--second-text-color);
-    background-color: var(--accent-color);
+.work-title{
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+    color: var(--title-text-color);
 }
-.filter-design:hover,
-.filter-design:focus {
-    color: var(--second-text-color);
-    background-color: var(--accent-color);
-}
-.filter-marketing:hover,
-.filter-marketing:focus {
-    color: var(--second-text-color);
-    background-color: var(--accent-color);
-}
+
 
