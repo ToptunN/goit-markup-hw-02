@@ -6,8 +6,7 @@
     --accent-color: #2196F3;
     --bcg-color: #FFFFFF;
     --bcgsecond-color: #F5F4FA;
-    --bcgthird: #2F303A;
-    
+    --bcgthird: #2F303A; 
 }
 body{
     font-family: 'Roboto',sans-serif;
@@ -46,20 +45,15 @@ img{
 .menu-link:focus{
     color: var(--accent-color);
 }
-.email-phone .email {
+.email-phone .contacts {
     color: var(--main-text-color);
+    font-size: 14px;
     font-weight: 500;
+    line-height: 1.14; 
+    letter-spacing: 0.02em;
 }
-.email-phone .phone {
-    color: var(--main-text-color);
-    font-weight: 500;
-}
-.email:hover,
-.email:focus {
-    color: var(--accent-color);
-}
-.phone:hover,
-.phone:focus {
+.email-phone .contacts:hover,
+.email-phone .contacts:focus {
     color: var(--accent-color);
 }
 .hero{
@@ -123,7 +117,6 @@ img{
     text-align: center;
     letter-spacing: 0.03em;
     color:var(--title-text-color)
-
 }
 .team.card{
     background-color: var(--bcg-color);
@@ -164,23 +157,19 @@ footer .post-address:hover,
 footer .post-address:focus {
     color:#2196F3
 }
-footer .email{
-font-style: normal;
-font-size: 14px;
-line-height: 1.71;
-letter-spacing: 0.03em;
-color: rgba(255, 255, 255, 0.6);
-}   
-footer .phone {
+footer .contacts {
     font-style: normal;
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
     color: rgba(255, 255, 255, 0.6);
 }
+footer .contacts:hover,
+footer .contacts:focus {
+    color:var(--accent-color);
+}
 .portfolio-page .filters{
     background-color: var(--bcgsecond-color);
-    font-family: 'Roboto', sans-serif;
 }
 .filter-button{
     font-family: inherit;
